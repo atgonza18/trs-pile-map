@@ -1,0 +1,21 @@
+# Safety: only index.html and README.md should ever be tracked.
+# Block every file type used anywhere in the parent folder so a stray copy
+# into this subfolder can never be committed.
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.kmz
+*.kml
+*.docx
+*.doc
+*.txt
+*.py
+*.ipynb
+*.md
+# re-allow README
+!README.md
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
